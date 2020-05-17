@@ -1,0 +1,26 @@
+body {background-color: maroon;
+    }
+.layer1,.layer2,.layer3,.layer4 {
+        float: left;
+        width: 25%;
+        text-align: center;
+        
+            }
+section {margin: -30px;
+    font-style: italic;
+    font-size: 500%;
+    text-align: center;
+}
+div {float: left;
+    inset-inline: 50%;
+    width: 50%;;
+}
+
+aside {width: 50%;
+    margin: -30px -5px 150px -5px;
+    font-size: 250%;
+    float: right;
+}
+a { color: beige; 
+    font-family: Italics;
+    font-size: 20px; }

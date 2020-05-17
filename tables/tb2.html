@@ -1,51 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seychelles &#128147</title>
     <link rel="shortcut icon" type="image/png" href="../images/palm-tree.png">
-    <style>    table, th, td {        
-        border: 1px solid black;
-        border-collapse: collapse;    
-        }</style>
-
+    <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
     <p>
         <a href="../index.html"> Home </a>
     </p>
     <br>
-    <table  cellspacing="5px", cellpadding="5px">
-        <tr>    
-        <td colspan="2" align="center">Pizza Shop 2.0</td>
-    </tr>
-    <tr>    
-        <td>
-            <label for="name">Name: </label></td>
-            <td><input type="text" id="name"></td>
-    </tr>
-    <tr>    
-        <td>Pizza Topping</td>
+    <table cellspacing="5px" , cellpadding="5px">
+        <tr>
+            <td colspan="2">Pizza Shop 2.0</td>
+        </tr>
+        <tr>
             <td>
-            <input type="radio" name="radiobutton"> Supreme <br>
-            <input type="radio" name="radiobutton"> Vegetarian <br>
-            <input type="radio" name="radiobutton"> Hawaiian <br>       
+                <label for="name">Name: </label></td>
+            <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+            <td>Pizza Topping</td>
+            <td>
+                <input type="radio" name="radiobutton"> Supreme <br>
+                <input type="radio" name="radiobutton"> Vegetarian <br>
+                <input type="radio" name="radiobutton"> Hawaiian <br>
             </td>
 
-    </tr>
-    <tr>    
-        <td>Pizza Sauce </td>
-        <td>
-            <select>
-                <option selected>Tomato</option>  
-                <option value="Cheese"> Cheese </option>  
-                <option value="Ketchup"> Ketchup </option>   
-                <option value="Mayoneese"> Mayoneese </option>
-            </select>
-    </td>
-    </tr>
+        </tr>
+        <tr>
+            <td>Pizza Sauce </td>
+            <td>
+                <select>
+                    <option selected>Tomato</option>
+                    <option value="Cheese"> Cheese </option>
+                    <option value="Ketchup"> Ketchup </option>
+                    <option value="Mayoneese"> Mayoneese </option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Optional Extras
+            </td>
+            <td>
+                <input type="checkbox"> Extra Cheese
+                <input type="checkbox"> Gluten Free Base
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" >Delivery Instructions:
+          <textarea name="delivery data" id="" cols="30" rows="10"></textarea>  
+
+            </td>
+        </tr>
     </table>
-    
+
 </body>
+
 </html>
