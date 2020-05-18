@@ -24,7 +24,7 @@ aside {width: 50%;
 a { color: beige; 
     font-family: Italics;
     font-size: 20px; }
-footer {padding: 10px;
-margin: 30px;
+footer {padding: 300px 300px 1px 300px;
+margin: 300px 300px 1px 300px;
 text-align: center;
 }
