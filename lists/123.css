@@ -1,0 +1,32 @@
+#chesstrick {
+    width: 600px;
+    height: 600px;
+    background-color: lightgreen;
+    margin: 0 auto;
+    border: 1px solid #000;
+    display: table;
+  }
+    .row {
+      display: table-row;
+  }
+  
+  .blackcell, .whitecell  {
+    width: 75px;
+    height: 75px;
+    display: table-cell;
+  }
+  
+  .blackcell {
+    background-color: black;
+  }
+    .whitecell {
+    background-color: white;
+  }
+  .letters { 
+      display: inline;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    }
+
+.A, .B, .C, .D, .E, .F, .G, .H { }

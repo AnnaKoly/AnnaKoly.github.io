@@ -1,0 +1,38 @@
+#chesstrick {
+    width: 625px;
+    height: 625px;
+    background-color: lightgreen;
+    margin: 0 auto;
+    display: table;
+  }
+    .row {
+      background: white;
+      display: table-row;
+  }
+  .blackcell, .whitecell  {
+    border: 1px solid black;
+    width: 73px;
+    height: 73px;
+    display: table-cell;
+  }
+  .blackcell {
+    background-color: black;
+  }
+   
+.A, .B, .C, .D, .E, .F, .G, .H 
+{display: table-cell;
+    width: 75px;
+    height: 20px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: larger;  
+} 
+#A1, #A2, #A3, #A4, #A5, #A6, #A7, #A8 {
+  display: table-cell;
+text-align: center;
+vertical-align: middle;
+font-family: fantasy;
+font-size: larger;
+background-color: white;
+}
+img {position: relative;}
