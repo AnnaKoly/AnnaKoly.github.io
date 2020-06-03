@@ -12,7 +12,16 @@
 <body>
     <header>
         <div class="layer1">
-            <a href="">About</a> </div>
+            <select name="currency" id="currency">
+                <option value="USD">US Dollar</option>
+                <option value="EUR">Euro</option>
+                <option value="PLN">Polish zloty</option>
+                <option value="HUF">Hungarian forint</option>
+            </select>
+            <input type="date" name="cdate" id="cdate">
+            <input type="button" id="btnGet" value="Get Rate..." >
+            <p id="result"></p>
+            <script src="script.js"></script> </div>
         <div class="layer2">
             <a href="">Hotels</a> </div>
         <div class="layer3">
